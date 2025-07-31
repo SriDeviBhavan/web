@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.19f4a683.css",
-    "main.js": "/web/static/js/main.e4a9e473.js",
-    "static/js/453.54de6716.chunk.js": "/web/static/js/453.54de6716.chunk.js",
-    "index.html": "/web/index.html",
-    "main.19f4a683.css.map": "/web/static/css/main.19f4a683.css.map",
-    "main.e4a9e473.js.map": "/web/static/js/main.e4a9e473.js.map",
-    "453.54de6716.chunk.js.map": "/web/static/js/453.54de6716.chunk.js.map"
+    "main.css": "/sri-devi-bhavan/static/css/main.a8bf5713.css",
+    "main.js": "/sri-devi-bhavan/static/js/main.1cd9b495.js",
+    "static/js/453.54de6716.chunk.js": "/sri-devi-bhavan/static/js/453.54de6716.chunk.js",
+    "index.html": "/sri-devi-bhavan/index.html",
+    "main.a8bf5713.css.map": "/sri-devi-bhavan/static/css/main.a8bf5713.css.map",
+    "main.1cd9b495.js.map": "/sri-devi-bhavan/static/js/main.1cd9b495.js.map",
+    "453.54de6716.chunk.js.map": "/sri-devi-bhavan/static/js/453.54de6716.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19f4a683.css",
-    "static/js/main.e4a9e473.js"
+    "static/css/main.a8bf5713.css",
+    "static/js/main.1cd9b495.js"
   ]
 }

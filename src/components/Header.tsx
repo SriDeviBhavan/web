@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ onOrderClick, currentPage = 'home', onB
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/logo.png" 
+              src="./logo.png" 
               alt="Sri Devi Bhavan" 
               className="h-12 w-auto md:h-16"
             />

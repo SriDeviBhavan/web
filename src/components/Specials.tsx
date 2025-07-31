@@ -6,28 +6,28 @@ const Specials: React.FC = () => {
       id: 1,
       name: 'Aloo Paratha',
       description: 'Stuffed North Indian delight with homemade curd',
-      image: '/images/aloo paratha.jpg',
+      image: './images/aloo paratha.jpg',
       price: '₹120'
     },
     {
       id: 2,
       name: 'Bisibele Bath',
       description: 'Spicy, soul-hugging Karnataka classic',
-      image: '/images/bbb.jpg',
+      image: './images/bbb.jpg',
       price: '₹120'
     },
     {
       id: 3,
       name: 'Filter Coffee',
       description: 'Strong, hot, served in dabra tumbler',
-      image: '/images/coffee.jpg',
+      image: './images/coffee.jpg',
       price: '₹20'
     },
     {
       id: 4,
       name: 'Holige Meal',
       description: 'Festive sweet on banana leaf',
-      image: '/images/holige meal.jpg',
+      image: './images/holige meal.jpg',
       price: '₹200'
     }
   ];

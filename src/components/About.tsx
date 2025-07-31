@@ -49,7 +49,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/images/holige meal.jpg"
+                src="./images/holige meal.jpg"
                 alt="Traditional South Indian Meal"
                 className="w-full h-96 object-cover"
               />

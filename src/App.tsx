@@ -1,11 +1,46 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Specials from './components/Specials';
+import WhyChooseUs from './components/WhyChooseUs';
+import Gallery from './components/Gallery';
+import CustomerQuotes from './components/CustomerQuotes';
+import Footer from './components/Footer';
+import OrderForm from './components/OrderForm';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('home');
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'order':
+        return <OrderForm />;
+      default:
+        return (
+          <>
+            <Hero />
+            <About />
+            <Specials />
+            <WhyChooseUs />
+            <Gallery />
+            <CustomerQuotes />
+          </>
+        );
+    }
+  };
+
   return (
-    <div className="text-center mt-20">
-      <h1 className="text-4xl font-bold text-yellow-700">Sri Devi Bhavan</h1>
-      <p className="mt-4 text-lg">Since 1953 — Pure Vegetarian, Banana Leaf Meals & Filter Coffee</p>
-      <p className="mt-2">Visit us at Devanahalli, or order online for heritage on your plate.</p>
+    <div className="App">
+      <Header 
+        onOrderClick={() => setCurrentPage('order')} 
+        currentPage={currentPage}
+        onBackToHome={() => setCurrentPage('home')}
+      />
+      <main>
+        {renderPage()}
+      </main>
+      <Footer />
     </div>
   );
 }

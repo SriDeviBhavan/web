@@ -5,10 +5,10 @@ const Hero: React.FC = () => {
   const [textIndex, setTextIndex] = useState(0);
 
   const heroImages = [
-    '/images/aloo paratha.jpg',
-    '/images/bbb.jpg',
-    '/images/coffee.jpg',
-    '/images/holige meal.jpg'
+    './images/aloo paratha.jpg',
+    './images/bbb.jpg',
+    './images/coffee.jpg',
+    './images/holige meal.jpg'
   ];
 
   const rotatingTexts = [

@@ -2,7 +2,7 @@
   "name": "sri-devi-bhavan",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sridevibhavan.github.io/web",
+  "homepage": "https://sridevibhavan.github.io/sri-devi-bhavan",
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
